@@ -1,0 +1,41 @@
+.floatImg{
+	float: left;
+	margin: 0px 10px;
+}
+
+
+body {
+	background-color: #000000;
+
+
+}
+header {
+	background-color: #db8c16;	
+	
+}
+footer {
+	background-color: #d42c2c;
+	;
+	color: black;
+}
+#content {
+	background-color: white;
+	background-image: url("MichealRee.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 118px;
+	padding: 5px;
+	padding-left: 20px;
+}
+header, footer, #content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: pink;
+}
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black;
+}
+
